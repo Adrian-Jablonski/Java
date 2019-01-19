@@ -15,13 +15,18 @@ public class Player {
         this.dealer = dealer;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
     public int getPoints() {
         return this.points;
     }
 
-    public void dealtCards(String newCard, int cardPoints) {
+    public void dealtCards(Cards deck, String dealtCard) {
+        int cardPoints = deck.cardPoints(dealtCard);
         System.out.print(this.name + " was dealt a ");
-        System.out.println(newCard);
+        System.out.println(dealtCard);
         this.points += cardPoints;
     }
 }

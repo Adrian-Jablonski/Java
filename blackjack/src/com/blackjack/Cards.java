@@ -40,7 +40,6 @@ public class Cards {
     public int cardPoints(String card) {
         int cardPoints = 0;
         String cardRank = card.substring(0, card.indexOf(" "));
-        System.out.println("CARD RANK " + cardRank);
 
         if (cardRank.equals("A") || cardRank.equals("K") || cardRank.equals("Q") || cardRank.equals("J")) {
 
