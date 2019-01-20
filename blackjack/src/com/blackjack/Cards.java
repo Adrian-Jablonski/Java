@@ -29,12 +29,13 @@ public class Cards {
         return Arrays.toString(deck);
     }
 
-    public String dealCard() {
+    public void dealCard(Cards deck1, Player player) {
         int deckSize = deck.length;
         long randomNumb = Math.round(Math.random() * (deckSize) - 1);
         String currentCard = deck[(int)randomNumb];
         removeCardFromDeck(currentCard);
-        return currentCard;
+        player.dealtCards(deck1, currentCard);
+//        return currentCard;
     }
 
     public int cardPoints(String card) {
