@@ -55,6 +55,23 @@ public class PlayerInput {
         }
     }
 
+    public void playAgain(GamePlay gamePlay) {
+        System.out.println("Play Again? (Y/N)");
+        this.setUserInput();
+        switch(this.userInput) {
+            case "Y":
+                System.out.println("Dealing Cards");
+                break;
+            case "N":
+                System.out.println("Good bye");
+                gamePlay.setGameOver(true);
+                break;
+            default:
+                this.invalidMessage('H', 'S', gamePlay);
+                break;
+        }
+    }
+
     public void invalidMessage(char opt1, char opt2) {
         System.out.println("Invalid Input. Type " + opt1 + " or " + opt2);
         this.checkUserStartGameInput();
@@ -63,7 +80,11 @@ public class PlayerInput {
     public void invalidMessage(char opt1, char opt2, Cards deck, Player player) {
         System.out.println("Invalid Input. Type " + opt1 + " or " + opt2);
         this.hitOrStay(deck, player);
+    }
 
+    public void invalidMessage(char opt1, char opt2, GamePlay gamePlay) {
+        System.out.println("Invalid Input. Type " + opt1 + " or " + opt2);
+        this.playAgain(gamePlay);
     }
 
     public void printPlayerPointsMsg(Player player) {
