@@ -51,10 +51,25 @@ public class Main {
                 new Multiplier(11.0d, 3.0d)
         };
 
-        for (CalculateBase calculator: calculators) {
+        for(CalculateBase calculator: calculators) {
             calculator.calculate();
             System.out.println("result= " + calculator.getResult());
         }
 
+        String[] statements = {
+                "divide 100.0 50.0",
+                "add 25.0 92.0",
+                "subtract 225.0 17.0",
+                "multiply 11.0 3.0"
+        };
+
+        System.out.println("Using Enumeration");
+        System.out.println(" ");
+
+        CalculateHelper helper = new CalculateHelper();
+        for(String statement: statements) {
+            helper.process(statement);
+            System.out.println(helper);
+        }
     }
 }
