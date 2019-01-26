@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b25a823-ff56-4015-bda8-6612b58df65e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToe/com/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToe/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/desktop.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CalcEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalcEngine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmailAdminApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailAdminApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StudentDatabaseApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentDatabaseApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StudentDatabaseApp/src/com/StudentDatabaseApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentDatabaseApp/src/com/StudentDatabaseApp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/com/TicTacToe/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TicTacToe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TicTacToe/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TicTacToe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TicTacToe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TicTacToe/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blackjack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blackjack/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,80 +32,81 @@
     <session id="447887477">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3134" />
+          <entry key="java" value="4330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3134" />
+          <entry key="JAVA" value="4330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="ini" value="2" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-              <folding>
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Board.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#758#759#0" expanded="true" />
+                    <element signature="e#794#795#0" expanded="true" />
+                    <element signature="e#843#844#0" expanded="true" />
+                    <element signature="e#883#884#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Player.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="118">
+                  <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,22 +115,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>game ov</find>
+      <find>setGameOver</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/TicTacToe/Main.java" />
         <option value="$PROJECT_DIR$/src/com/TicTacToe/Board.java" />
         <option value="$PROJECT_DIR$/src/com/TicTacToe/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/TicTacToe/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1377" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1450" />
     <option name="y" value="71" />
-    <option name="width" value="1256" />
+    <option name="width" value="1329" />
     <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548461089988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548527756452" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,22 +219,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1377" y="71" width="1256" height="789" extended-state="0" />
+    <frame x="-1608" y="1" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17558528" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13881747" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3180593" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32977098" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.43969464" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4555256" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -233,42 +253,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/com/desktop.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/desktop.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        <state relative-caret-position="108">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
           <folding>
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/TicTacToe/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="118">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
         </state>
       </provider>
     </entry>

@@ -21,15 +21,15 @@ public class Main {
                 board.addTurn();
                 player1.playerMove(board);
             }
+            else {
+
+            }
             if (board.getTurn() <= 8 && !board.getGameOver()) {
                 board.addTurn();
                 player2.playerMove(board);
             }
         }
 
-        // Prevent user from entering invalid number
-
-        // Prevent user from entering number of a spot that is taken
 
         // Ask for rematch
 

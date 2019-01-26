@@ -26,9 +26,6 @@ public class Board {
     }
 
     public boolean getGameOver() {
-        if (this.gameOver) {
-            System.out.print("Game Over"); //TODO: Place this somewhere else to prevent it printing twice when first player wins
-        }
         return this.gameOver;
     }
 
@@ -62,12 +59,25 @@ public class Board {
 
         if (row1Win || row2Win || row3Win || col1Win || col2Win || col3Win || diag1Win || diag2Win) {
             System.out.println(name + " WINS!");
-            this.gameOver = true;
+            this.setGameOver(true);
         }
     }
 
     public boolean checkIfEquals(char char1, char char2, char char3) {
         if (char1 == char2 && char2 == char3) {
+            return true;
+        }
+        return false;
+    }
+
+    // Prevent user from entering number of a spot that is taken
+    public boolean checkIfSpotTaken(int playerInput) {
+        if (playerInput == -1) {
+            System.out.print("Enter a number from 1 - 9. ");
+            return true;
+        }
+        if (board[playerInput] == 'X' || board[playerInput] == 'O') {
+            System.out.print("Space Taken. ");
             return true;
         }
         return false;
