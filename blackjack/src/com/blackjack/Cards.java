@@ -4,17 +4,16 @@ import java.util.Arrays;
 public class Cards {
     private int cardAmount = 52;
     private String[] deck = new String[cardAmount];
-    private String[] cardRanks;
-    private char[] cardSuits;
+    public static final String[] CARDRANKS = new String[]{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+    public enum CardSuits {H, D, C, S}
+
 
     { // initialization block
-        cardRanks = new String[]{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
-        cardSuits = new char[]{'H', 'D', 'C', 'S'};
         int cardIndex = 0;
 
         // Creating cards
-        for (char suit: cardSuits) {
-            for (String rank: cardRanks) {
+        for (CardSuits suit: CardSuits.values()) {
+            for (String rank: CARDRANKS) {
                 deck[cardIndex] = rank + " " + suit;
                 cardIndex ++;
             }
