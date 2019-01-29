@@ -20,22 +20,23 @@ public class Main {
             while (!board.getGameOver()) {
                 if (board.getTurn() <= 8) {
                     board.addTurn();
-                    player1.playerMove(board);
+                    player1.playerMove(board, player2);
                 }
                 else {
 
                 }
                 if (board.getTurn() <= 8 && !board.getGameOver()) {
                     board.addTurn();
-                    player2.playerMove(board);
+                    player2.playerMove(board, player1);
                 }
             }
+            // Keep track of wins, losses, and draws
+            player1.showStats();
+            player2.showStats();
+
             // Ask for rematch
             player1.setPlayAgain();
         }
-
-
-        // Keep track of wins, losses, and draws
 
         // Set up game vs computer having computer move based on player movement
     }

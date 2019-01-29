@@ -47,7 +47,7 @@ public class Board {
         System.out.println(player1.getName() + " is " + player1.getXorO() + "\n" + player2.getName() +  " is " + player2.getXorO());
     }
 
-    public void checkForWinner(String name) {
+    public boolean checkForWinner(String name) {
         boolean row1Win = this.checkIfEquals(board[0], board[1], board[2]);
         boolean row2Win = this.checkIfEquals(board[3], board[4], board[5]);
         boolean row3Win = this.checkIfEquals(board[6], board[7], board[8]);
@@ -60,7 +60,9 @@ public class Board {
         if (row1Win || row2Win || row3Win || col1Win || col2Win || col3Win || diag1Win || diag2Win) {
             System.out.println(name + " WINS!");
             this.setGameOver(true);
+            return true;
         }
+        return false;
     }
 
     public boolean checkIfEquals(char char1, char char2, char char3) {

@@ -9,6 +9,9 @@ public class Player {
     private String name;
     private int playerInput;
     private boolean playAgain = true;
+    private int wins = 0;
+    private int losses = 0;
+    private int draw = 0;
 
     public Player(boolean human, String name) {
         this.human = human;
@@ -33,7 +36,19 @@ public class Player {
         this.playAgainInput();
     }
 
-    public void playerMove(Board board) {
+    public int getWins() {return this.wins;}
+
+    public void setWins(int wins) {this.wins = wins;}
+
+    public int getLosses() {return this.losses;}
+
+    public void setLosses(int losses) {this.losses = losses;}
+
+    public int getDraw() {return this.draw;}
+
+    public void setDraw(int draw) {this.draw = draw;}
+
+    public void playerMove(Board board, Player player) {
         System.out.println("TURN # " +board.getTurn());
         if (this.human) {
 
@@ -43,11 +58,18 @@ public class Player {
         }
 
         board.getBoard();
-        board.checkForWinner(this.name);
+        boolean playerWon = board.checkForWinner(this.name);
+
+        if (playerWon) {
+            this.setWins(this.getWins() + 1);
+            player.setLosses(player.getLosses() + 1);
+        }
 
         if (board.getTurn() >= 9 && !board.getGameOver()) {
             System.out.println("DRAW");
             board.setGameOver(true);
+            this.setDraw(this.getDraw() + 1);
+            player.setDraw(player.getDraw() + 1);
         }
     }
 
@@ -91,5 +113,9 @@ public class Player {
             System.out.print("Enter Y or N. ");
             this.playAgainInput();
         }
+    }
+
+    public void showStats() {
+        System.out.println(this.name + ": Wins: " + this.getWins() + " Losses: " + this.getLosses() + " Draw: " + this.getDraw());
     }
 }
