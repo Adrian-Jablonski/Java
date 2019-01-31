@@ -11,7 +11,11 @@ public class Board {
         }
     }
 
-    public void getBoard() {
+    public char[] getBoard() {
+        return this.board;
+    }
+
+    public void showBoard() {
         System.out.println(
                 "\n " + board[0] + " | " + board[1] + " | " + board[2] +
                 "\n __ ___ __" +

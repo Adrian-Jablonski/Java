@@ -6,13 +6,14 @@ public class Main {
 
         // Create player
         Player player1 = new Player(true, "Player1");
-        Player player2 = new Player(true, "Player2");
+        String player2Type = player1.player2Type();
+        Player player2 = new Player(player2Type.equals("Human"), "Player2");
 
         while (player1.getPlayAgain()) {
             // Create board with an array containing each spot
             Board board = new Board();
 
-            board.getBoard();
+            board.showBoard();
             board.assignXorO(player1, player2);
 
             // Ask player where to move
