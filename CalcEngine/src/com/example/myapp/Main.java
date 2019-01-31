@@ -4,9 +4,12 @@ import com.example.calcengine.Adder;
 import com.example.calcengine.CalculateBase;
 import com.example.calcengine.CalculateHelper;
 import com.example.calcengine.Divider;
+import com.example.calcengine.DynamicHelper;
 import com.example.calcengine.InvalidStatementException;
 import com.example.calcengine.MathEquation;
+import com.example.calcengine.MathProcessing;
 import com.example.calcengine.Multiplier;
+import com.example.calcengine.PowerOf;
 import com.example.calcengine.Subtracter;
 
 public class Main {
@@ -89,6 +92,24 @@ public class Main {
                     System.out.println("  Original exception: " + e.getCause().getMessage());
                 }
             }
+        }
+
+        System.out.println("Using Interfaces");
+        System.out.println(" ");
+
+        String[] statements2 = {
+                "add 25.0 92.0",
+                "power 5.0 2.0",
+                "power 2.0 3.0"
+        };
+
+        DynamicHelper helper2 = new DynamicHelper(new MathProcessing[] {
+                new Adder(),
+                new PowerOf()
+        });
+        for(String statement:statements2) {
+            String output = helper2.process(statement);
+            System.out.println(output);
         }
     }
 }
