@@ -1,0 +1,7 @@
+Hello
+World
+From
+
+run --> edit configurations --> program arguments
+"multiple part file name.txt"
+Passes file name in quotes because of whitespace

@@ -1,0 +1,5 @@
+Hello
+World
+
+run --> edit configurations --> program arguments
+file1.txt
